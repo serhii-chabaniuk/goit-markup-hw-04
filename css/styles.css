@@ -129,9 +129,18 @@ body {
 .section-title {
   padding-top: 200px;
   padding-bottom: 200px;
-
-  background-color: #2f303a;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
+
+  max-width: 1600px;
+
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/img-background.jpg);
+  background-color: #c4c4c4;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .title-h1 {
@@ -182,6 +191,33 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
+}
+
+.ul-advantage .item::before {
+  display: block;
+  content: '';
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.ul-advantage .item.antenna::before {
+  background-image: url(../images/antenna.svg);
+}
+
+.ul-advantage .item.clock::before {
+  background-image: url(../images/clock.svg);
+}
+
+.ul-advantage .item.diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+
+.ul-advantage .item.astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 
 .advantege-h3 {
@@ -299,6 +335,44 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+.section-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.h2-clients {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+
+.ul-clients {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.ul-clients .item:not(:nth-child(6n)) {
+  margin-right: 30px;
+}
+
+.ul-clients .item {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  padding: 16px 32px;
 }
 
 /* footer */
