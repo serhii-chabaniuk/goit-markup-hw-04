@@ -135,20 +135,19 @@ body {
   fill: #afb1b8;
 }
 
-/* .icon-envelope:hover {
-  fill: #2196f3;
+.contact-head:hover,
+.contact-head:focus {
+  color: var(--accent-color);
 }
 
-.icon-smartphone:hover {
-  fill: #2196f3;
-} */
+.contact-head:hover > .icon-envelope,
+.contact-head:focus > .icon-envelope {
+  fill: var(--accent-color);
+}
 
-.contact-head:hover,
-.contact-head:focus,
-.icon-envelope:hover,
-.icon-smartphone:hover {
-  color: var(--accent-color);
-  fill: #2196f3;
+.contact-head:hover > .icon-smartphone,
+.contact-head:focus > .icon-smartphone {
+  fill: var(--accent-color);
 }
 
 /* main */
