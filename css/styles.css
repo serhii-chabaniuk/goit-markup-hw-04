@@ -45,6 +45,11 @@ body {
 
 /* header */
 
+.header {
+  max-width: 1600px;
+  margin: 0px auto;
+}
+
 .container.head {
   display: flex;
   align-items: center;
@@ -151,10 +156,8 @@ body {
 /* main */
 
 .section-title {
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-right: auto;
-  margin-left: auto;
+  padding: 200px 0px;
+  margin: 0px auto;
   text-align: center;
   max-width: 1600px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -200,8 +203,9 @@ body {
 }
 
 .section-advantage {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
+  margin: 0px auto;
+  max-width: 1600px;
 }
 
 .ul-advantage {
@@ -266,12 +270,13 @@ body {
 
 .section-doing {
   padding-bottom: 94px;
+  margin: 0px auto;
+  max-width: 1600px;
 }
 
 .title-doing {
   margin-top: 0;
   margin-bottom: 50px;
-
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -294,8 +299,8 @@ body {
 }
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
+  margin: 0px auto;
   max-width: 1600px;
   background-color: #f5f4fa;
 }
@@ -351,8 +356,9 @@ body {
 }
 
 .section-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
+  margin: 0px auto;
+  max-width: 1600px;
 }
 
 .h2-clients {
@@ -398,8 +404,9 @@ body {
 /* footer */
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0px;
+  margin: 0px auto;
+  max-width: 1600px;
   background-color: #2f303a;
 }
 
@@ -454,8 +461,9 @@ body {
 /* main portfolio */
 
 .section-portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 94px 0px;
+  margin: 0px auto;
+  max-width: 1600px;
 }
 
 .ul-filter {
