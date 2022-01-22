@@ -383,29 +383,29 @@ body {
   vertical-align: bottom;
 }
 
-.instagram-demyanenko:hover > .social-icon,
-.instagram-demyanenko:focus > .social-icon {
+.instagram:hover > .social-icon,
+.instagram:focus > .social-icon {
   fill: #fff;
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.twitter-demyanenko:hover > .social-icon,
-.twitter-demyanenko:focus > .social-icon {
+.twitter:hover > .social-icon,
+.twitter:focus > .social-icon {
   fill: #fff;
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.facebook-demyanenko:hover > .social-icon,
-.facebook-demyanenko:focus > .social-icon {
+.facebook:hover > .social-icon,
+.facebook:focus > .social-icon {
   fill: #fff;
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-.linkedin-demyanenko:hover > .social-icon,
-.linkedin-demyanenko:focus > .social-icon {
+.linkedin:hover > .social-icon,
+.linkedin:focus > .social-icon {
   fill: #fff;
   background-color: var(--accent-color);
   border-radius: 50%;
