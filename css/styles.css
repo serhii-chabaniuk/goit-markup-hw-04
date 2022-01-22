@@ -119,9 +119,36 @@ body {
   letter-spacing: 0.02em;
 }
 
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: #afb1b8;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+  fill: #afb1b8;
+}
+
+/* .icon-envelope:hover {
+  fill: #2196f3;
+}
+
+.icon-smartphone:hover {
+  fill: #2196f3;
+} */
+
 .contact-head:hover,
-.contact-head:focus {
+.contact-head:focus,
+.icon-envelope:hover,
+.icon-smartphone:hover {
   color: var(--accent-color);
+  fill: #2196f3;
 }
 
 /* main */
@@ -367,12 +394,20 @@ body {
   margin-right: 30px;
 }
 
-.ul-clients .item {
+.link-clients {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
-  padding: 16px 32px;
+  display: block;
+  text-align: center;
+}
+
+.icon-logo {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+  /* fill: #2196f3; */
 }
 
 /* footer */
