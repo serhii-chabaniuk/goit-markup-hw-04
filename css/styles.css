@@ -439,24 +439,32 @@ body {
   list-style-type: none;
 }
 
-.ul-clients .item:not(:nth-child(6n)) {
+.list-clients {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.list-clients:not(:nth-child(6n)) {
   margin-right: 30px;
 }
 
 .link-clients {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  width: 170px;
-  height: 92px;
-  display: block;
-  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
 }
 
 .icon-logo {
   width: 106px;
   height: 60px;
   fill: #afb1b8;
-  /* fill: #2196f3; */
+}
+
+.link-clients:hover .icon-logo {
+  fill: var(--accent-color);
 }
 
 /* footer */
