@@ -442,13 +442,13 @@ body {
 }
 
 .link-clients {
-  padding-top: 16px;
-  display: inline-block;
+  display: flex;
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .icon-logo {
