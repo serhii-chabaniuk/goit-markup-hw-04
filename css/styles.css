@@ -231,18 +231,22 @@ body {
 
 .ul-advantage .item.antenna::before {
   background-image: url(../images/antenna.svg);
+  background-size: 70px 70px;
 }
 
 .ul-advantage .item.clock::before {
   background-image: url(../images/clock.svg);
+  background-size: 70px 70px;
 }
 
 .ul-advantage .item.diagram::before {
   background-image: url(../images/diagram.svg);
+  background-size: 70px 70px;
 }
 
 .ul-advantage .item.astronaut::before {
   background-image: url(../images/astronaut.svg);
+  background-size: 70px 70px;
 }
 
 .advantege-h3 {
