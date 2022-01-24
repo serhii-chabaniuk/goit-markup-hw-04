@@ -439,22 +439,18 @@ body {
   list-style-type: none;
 }
 
-.list-clients {
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  text-align: center;
-}
-
 .list-clients:not(:nth-child(6n)) {
   margin-right: 30px;
 }
 
 .link-clients {
+  padding-top: 16px;
   display: inline-block;
-  width: 100%;
-  height: 100%;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  text-align: center;
 }
 
 .icon-logo {
@@ -463,7 +459,11 @@ body {
   fill: #afb1b8;
 }
 
-.link-clients:hover .icon-logo {
+.link-clients:hover {
+  border-color: var(--accent-color);
+}
+
+.link-clients:hover > .icon-logo {
   fill: var(--accent-color);
 }
 
